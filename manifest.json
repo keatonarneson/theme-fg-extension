@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Cookie Changer",
+    "version": "1.0",
+    "description": "Change a cookie value from light to dark to classic on localhost.",
+    "host_permissions": ["http://localhost/*", "https://localhost/*"],
+    "permissions": ["cookies", "scripting"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "icons/flat_fg_green_16.png",
+            "32": "icons/flat_fg_green_32.png",
+            "48": "icons/flat_fg_green_48.png",
+            "128": "icons/flat_fg_green_128.png"
+        }
+    }
+}
